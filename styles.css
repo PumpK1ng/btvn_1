@@ -3,7 +3,7 @@
   width: 100%;
 }
 body {
-  background-color: #cfd7b3;
+  background-color: #e2e2c0cb;
 }
 .boxcenter {
   margin: 0 auto;
@@ -14,8 +14,9 @@ header {
   min-height: 100px;
 }
 h5{
-  margin: 30px;
+  margin: 20px;
   margin-right: 0px;
+  margin-bottom: 15px;
 }
 
 #text_logo {
@@ -25,8 +26,8 @@ h5{
   margin-top: 40px;
   margin-bottom: 0;
 }
-#text_dec_logo {
-  margin-bottom: 20px;
+.h4.text_dec_logo {
+  
   font-size: large;
   color: gray;
 }
@@ -71,7 +72,7 @@ li {
   margin-right: -12px;
   cursor: pointer;
   border-radius: 10px;
-  background-color: #cfd7b3;
+  background-color: #e2e2c0cb;
   margin-left: 20px;
 }
 
@@ -118,13 +119,14 @@ nav {
 article {
   float: left;
   width: 75%;
-  min-height: 400px;
+  height: 100%;
   background-color: white;
+  margin-bottom: 20px;
 }
 .ctn_body {
   margin: 0 auto;
   width: 95%;
-  min-height: 450px;
+  max-height: 100%;
 }
 
 .ctn_newtour {
@@ -146,7 +148,9 @@ article {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
-.btn_newtour {
+.btn__newtour--2,
+.btn__newtour--3,
+.btn__newtour--4{
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -157,10 +161,21 @@ article {
   margin-top: 10px;
   align-items: center;
 }
+.btn__newtour--1
+{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
 .ctn_2 {
     width: 100%;
     min-height: auto;
-    /* background-color: beige; */
     float: left;
 }
 .btn_2 {
@@ -190,7 +205,6 @@ article {
   padding: 15px 10px;
   width: 299px;
   text-decoration: none;
-  /* background-color: #f3f2f2; */
   background: rgb(209,209,209);
   background: linear-gradient(180deg, rgba(209,209,209,1) 0%, rgba(231,231,231,1) 48%, rgba(245,245,245,1) 100%);
   color: black;
@@ -226,7 +240,9 @@ background: linear-gradient(180deg, rgb(20, 242, 24) 0%, rgba(126,244,131,1) 48%
   height: 150px;
   text-align: left; 
   margin-left: 20px;
-  margin-bottom: 60px;
+  margin-right: 20px;
+  margin-bottom: 180px;
+  margin-top: 20px;
 }
 .text_title {
   font-size: 20px;
@@ -238,15 +254,14 @@ background: linear-gradient(180deg, rgb(20, 242, 24) 0%, rgba(126,244,131,1) 48%
 aside {
   float: left;
   width: 25%;
+  height: 1309px;
   background-color: rgb(224, 213, 213);
-  min-height: 400px;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px; 
 }
 .div_aside {
   width: 80% ;
   margin: auto;
   margin-top: 20px;
-
 }
 .select_control{
   display: flex;
@@ -772,6 +787,12 @@ footer {
   color: var(--text-color);
   font-size: 15px;
   line-height: 24px;
+}
+
+p{
+  margin: 10px;
+  display: flex;
+  flex-direction: left;
 }
 
 /* Sidebar */
