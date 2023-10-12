@@ -1048,4 +1048,6 @@ p{
   color: #6c7a68cb;
   opacity: 2;
   margin: 4px;
+  display: flex;
+  justify-content: center;
 }
