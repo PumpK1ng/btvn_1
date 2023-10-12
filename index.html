@@ -1,265 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-
-<body>
-  <div class="boxcenter">
-    <header class="row">
-      <div class="content_btn">
-        <div>
-          <img style="float: left;" id="img_bg" src="./img/bg.png" alt="logo" />
-          <p id="text_logo">LOGO</p>
-          <p id="text_dec_logo">Cùng bạn du lịch năm châu</p>
-        </div>
-
-        <ul class="ctn_detail">
-          <li>
-            <h3>Contact Us by the telephone number bellow</h3>
-          </li>
-          <li style="margin-top: -35px;">
-            <h1> 12 <span style="color: #4CAF50;"> (0) 12</span>34 567890</h2>
-          </li>
-          <li>
-            <ul>
-              <li><button class="li_a">HOME</button></li>
-              <li><button class="li_a">ABOUT</button></li>
-              <li><button class="li_a">DONATE</button></li>
-              <li><button class="li_a">VIDEO</button></li>
-              <li><button class="li_a">CONTACT</button></li>
-            </ul>
-
-          </li>
-        </ul>
-
-      </div>
-    </header>
-    <nav class="row">
-      <button class="li_nav">HOME</button>
-      <button class="li_nav">DONATE</button>
-      <button class="li_nav">ABOUT US</button>
-      <button class="li_nav">TOUR</button>
-      <button class="li_nav">NATURE</button>
-      <button class="li_nav">TIPS</button>
-      <button class="li_nav">CONTACT US</button>
-    </nav>
-    <div class="row">
-      <article>
-        <div class="ctn_body">
-          <div class="ctn_newtour">
-            <div><img id="img_lion" src="./img/lion1.jpg"></div>
-            <div class="ctn_text_newtour">
-              <p> <br><span style="font-size: 30px;">OUR</span> <br> <span style="font-size: 36px; color: #4CAF50;">NEW
-                  TOUR</span></p>
-              <p>Đến với NATURE TOUR, bạn có thể tham quan hoặc tìm kiếm thông tin về các thắng cảnh ở bất kì nơi nào
-                trên thế giới mà bạn muốn</p>
-              <p><span style="color: #4CAF50;">Continue</span> <span style="color: lightskyblue;">reading...</span></p>
-              <ul>
-                <li><button class="btn_newtour"
-                    style="background-color: #4CAF50; width: 35px; height: 35px; margin-top: 5px;">1</button></li>
-                <li><button class="btn_newtour">2</button></li>
-                <li><button class="btn_newtour">3</button></li>
-                <li><button class="btn_newtour">4</button></li>
-              </ul>
-            </div>
-          </div>
-          <div class="ctn_2">
-            <p style="font-size: 34px; font-weight: bolder;">LOREM IPSUM <span style="color: green;">DOLOR</span> SIT
-              AMET</p>
-            <p>Biandit praesent luptatum zznil delenit augue duis dolore te feugait nulla facilisi. Nam <br> liber
-              tempor cum soluta nobis <a href="#">tutorials guides</a></p>
-            <img src="./img/cameraman.png" id="img_camera">
-            <div class="btn_author">
-              <a href="#" class="btn_a" style="border-top-left-radius: 10px ; border-bottom-left-radius: 10px;">By
-                Destination</a>
-              <a href="#" class="btn_a">By Species</a>
-              <a href="#" class="btn_a" style="border-bottom-right-radius: 10px ; border-top-right-radius: 10px;">By
-                Tour Type</a>
-            </div>
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./asset/themify-icons/themify-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="boxcenter">
+      <header class="row">
+        <div class="content_btn">
           <div>
-            <table class="table_1">
-              <tr>
-                <td>
-                  <img class="img_table" src="./img/voi.png" alt="">
-                  <div class="text_table">
-                    <p class="text_title">Lorem ipsum dolor</p>
-                    <p>Lorem ipsum door sit amet, <br> consectetuer adipiscing alit, sed diam nonummy nibh.</p>
-                  </div>
-                </td>
-                <td>
-                  <img class="img_table" src="./img/rung.jpg" alt="">
-                  <div class="text_table">
-                    <p class="text_title">Sed diam nonummy</p> `
-                    <p>Investigationes demonstraverunt letores legere me lius quod it legunt saepius. Claritas est etiam
-                      processus dynamicus, qui sequitor mutationem consuetudium lectorum</p>
-                  </div>
-                </td>
-                <td>
-                  <img class="img_table" src="./img/bang.jpg" alt="">
-                  <div class="text_table">
-                    <p class="text_title">Nam liber tempor</p>
-                    <p>Lorem ipsum door sit amet, <br> consectetuer adipiscing alit, sed diam nonummy nibh.</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img class="img_table" src="./img/sutu.jpg" alt="">
-                  <div class="text_table">
-                    <p class="text_title">Ut wisi enim</p>
-                    <p>Lorem ipsum door sit amet, <br> consectetuer adipiscing alit, sed diam nonummy nibh.</p>
-                  </div>
-                </td>
-                <td>
-                  <img class="img_table" src="./img/kangaroo.jpg" alt="">
-                  <div class="text_table">
-                    <p class="text_title">Duis autem vel</p> <!--Fix this-->
-                    <p>Lorem ipsum door sit amet, <br> consectetuer adipiscing alit, sed diam nonummy nibh.</p>
-                  </div>
-                </td>
-                <td>
-                  <img class="img_table" src="./img/bien.jpg" alt="">
-                  <div class="text_table">
-                    <p class="text_title">Eodem modo typi</p>
-                    <p>Lorem ipsum door sit amet, <br> consectetuer adipiscing alit, sed diam nonummy nibh.</p>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-      </article>
-      <aside>
-        <div class="div_aside">
-          <h3>HOLYDAY SEARCH</h3>
-          <h5>Chọn nơi bạn muốn tham quan: </h5>
-          <div class="select_control">
-            <input type="button" value="Chọn khu vực" class="btn_select">
-            <input type="button" value="Chọn chủ đề" class="btn_select">
-            <input type="button" value="Chọn ngày du lịch" class="btn_select">
-            <input type="button" value="Chọn mức giá" class="btn_select">
-          </div>
-          <div id="btn_arrow" style="margin-top: 20px;">
-            <p style="position: absolute; color: white; font-size: 20px; margin-left: 20px;">SEARCH HOLYDAYS</p>
-          </div>
-          <h1>QUICK SEARCH</h1>
-          <p>Thông tin nơi bạn tham quan:
-          </p>
-          <div style=" display:flex ; justify-content: space-between;">
-            <input type="text" placeholder="Country/Code..." id="btn_code">
-            <input type="button" value="SEARCH" id="btn_search_code">
+            <img
+              style="float: left"
+              id="img_bg"
+              src="./img/bg.png"
+              alt="logo"
+            />
+            <p id="text_logo">Nature Tour</p>
+            <p id="text_dec_logo">Cùng bạn du lịch năm châu</p>
           </div>
 
+          <ul class="ctn_detail">
+            <h5>Contact Us by the telephone number bellow</h5>
+            <li style="margin-top: -35px">
+              <h3>12 <span style="color: #4caf50"> (0) 12</span>34 567890</h3>
+            </li>
+            <li>
+              <ul>
+                <li><button class="li_a">HOME</button></li>
+                <li><button class="li_a">ABOUT</button></li>
+                <li><button class="li_a">DONATE</button></li>
+                <li><button class="li_a">VIDEO</button></li>
+                <li><button class="li_a">CONTACT</button></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <hr>
-        <div class="div_aside">
-          <h2>NEWSLETTER SIGUP</h2>
-          <p>Lorem ipsum dolor sit amet, Lorem ipsum dolo sit amet</p>
-          <input type="text" placeholder="Enter Email ..." class="btn_select">
-          <input type="text" placeholder="Enter Name ..." id="btn_code">
-          <input type="button" value="SIGN UP" id="btn_search_code">
-        </div>
-        <hr>
-        <div class="div_aside">
-          <h2>LATEST NEWS</h2>
-          <p style="font-size: 20px; font-weight: 600; color: #1abb1c; margin-bottom: -10px;">Dolor sit amet ipsum dolor
-          </p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-            claritas. Investigationes.</p>
-          <p style="font-size: 20px; font-weight: 600;margin-bottom: -10px; ">Lorem ipsum dolor sit amet</p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-            claritas. Investigationes.</p>
-          <p style="font-size: 20px; font-weight: 600; margin-bottom: -10px;">Lorem ipsum dolor sit amet</p>
-          <p style="margin-bottom: 70px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-            nibh euismod tincidunt ut claritas. Investigationes.</p>
-        </div>
-      </aside>
-    </div>
-    <div class="row">
-    <footer class="footer">
-        <div class="footer_title">
-            <h1 class="footer_title_name">Option congue nihil imperdiet doming id quod mazim place. Investingationes demonstraverunt</h1>
-        </div>
-        <div class="footer_content">
-            <ul class="footer-content-list">
-                <li class="footer-content-item">
-                    <h1 class="footer-content-title">Follow on twitter</h1>
-                    <p class="text pt-8">Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit, sed diam<br> nonummy nibh eusimod volutpat.</p>
-                    <ul class="footer-content-item-facebook">
-                        <div class="footer-content-item-facebook1">
-                            <p style="margin: 6px 0">join us on facebook</p>
-                        </div>
-                        <div class="footer-content-item-facebook-icon ti-user">
-
-                        </div>                    
-                    </ul>
-                </li>
-                <li class="footer-content-item2">
-                    <h1 class="footer-content-title">Liên kết</h1> <!--Fix this part-->
-                    <ul class=footer-content-list>
-                        <li class="footer-content-item3">
-                            <p class="text">Lorem ipsum</p>
-                            <p class="text">Duis autem</p>
-                            <p style="margin: 4px; font-size: 15px">Typi non habent</p>
-                            <p class="text">Odio dignissim</p>
-                            <p class=text>Accumsan et</p>
-                        </li>
-                        <li class="footer-content-item3">
-                            <p class="text">Dotor sit amet</p>
-                            <p class="text">FAQs</p>
-                            <p class="text">Home</p>
-                            <p class="text">Clients</p>
-                            <p class="text">Donate</p>
-                        </li>
-                        <li class="footer-content-item3">
-                            <p class="text">BBC Vietnamese</p>
-                            <p class="text">Quanta decima et</p>
-                            <p class="text">Legene me lius</p>
-                            <p class="text">Contact Us</p>
-                        </li>
-                    </ul>
-                </li>
-                <li class="footer-content-item4"> <!--Fix this-->
-                    <h1 class="footer-content-title">Contact Us</h1>
-                    <p class="text pt-8">
-                        <span style="font-weight: bold;">Tell:</span> 
-                        12345 678890
-                    </p>
-                    <p class ="text">
-                        <span style="font-weight: bold;">Email</span>
-                        jerry2099tom@gmail.com
-                        </p>
-                    <p> &nbsp;</p>
-                    <p class="text">Nature tour, Your CiTy,<br>Your state 123 456 789</p>
-                </li>
-            </ul>
-        </div>
-        <div class="footer_copyright">
-            <h1 style="line-height: 20px;font-size: 15px; ">© Nature tour 2013</h1>
-            <p class="text-copyright" >
-                Copyright and design by
-                <span style="text-transform: uppercase; font-weight: bold;">izwbez.com.</span>
-                <a>All right reserved</a>
+      </header>
+      <nav class="row">
+        <button class="li_nav">HOME</button>
+        <button class="li_nav">DONATE</button>
+        <button class="li_nav">ABOUT US</button>
+        <button class="li_nav">TOUR</button>
+        <button class="li_nav">NATURE</button>
+        <button class="li_nav">TIPS</button>
+        <button class="li_nav">CONTACT US</button>
+      </nav>
+      <div class="row">
+        <article>
+          <div class="ctn_body">
+            <div class="ctn_newtour">
+              <div><img id="img_lion" src="./img/lion1.jpg" /></div>
+              <div class="ctn_text_newtour">
+                <p>
+                  <br /><span style="font-size: 30px">OUR</span> <br />
+                  <span style="font-size: 36px; color: #4caf50">NEW TOUR</span>
+                </p>
+                <p>
+                  Đến với NATURE TOUR, bạn có thể tham quan hoặc tìm kiếm thông
+                  tin về các thắng cảnh ở bất kì nơi nào trên thế giới mà bạn
+                  muốn
+                </p>
+                <p>
+                  <span style="color: #4caf50">Continue</span>
+                  <span style="color: lightskyblue">reading...</span>
+                </p>
+                <ul>
+                  <li>
+                    <button
+                      class="btn_newtour"
+                      style="
+                        background-color: #4caf50;
+                        width: 35px;
+                        height: 35px;
+                        margin-top: 5px;
+                      "
+                    >
+                      1
+                    </button>
+                  </li>
+                  <li><button class="btn_newtour">2</button></li>
+                  <li><button class="btn_newtour">3</button></li>
+                  <li><button class="btn_newtour">4</button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="ctn_2">
+              <p style="font-size: 34px; font-weight: bolder">
+                LOREM IPSUM <span style="color: green">DOLOR</span> SIT AMET
+              </p>
+              <p>
+                Biandit praesent luptatum zznil delenit augue duis dolore te
+                feugait nulla facilisi. Nam <br />
+                liber tempor cum soluta nobis
+                <a href="#" style="color: green">Tutorials Guides</a>
+              </p>
+              <img src="./img/cameraman.png" id="img_camera" />
+              <div class="btn_author">
+                <a
+                  href="#"
+                  class="btn_a"
+                  style="
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                  "
+                  >By Destination</a
+                >
+                <a href="#" class="btn_a">By Species</a>
+                <a
+                  href="#"
+                  class="btn_a"
+                  style="
+                    border-bottom-right-radius: 10px;
+                    border-top-right-radius: 10px;
+                  "
+                  >By Tour Type</a
+                >
+              </div>
+            </div>
+            <div>
+              <table class="table_1">
+                <tr>
+                  <td>
+                    <img class="img_table" src="./img/voi.png" alt="" />
+                    <div class="text_table">
+                      <p class="text_title">Lorem ipsum dolor</p>
+                      <p>
+                        Lorem ipsum door sit amet, <br />
+                        consectetuer adipiscing alit, sed diam nonummy nibh.
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <img class="img_table" src="./img/rung.jpg" alt="" />
+                    <div class="text_table">
+                      <p class="text_title">Sed diam nonummy</p>
+                      `
+                      <p>
+                        Investigationes demonstraverunt letores legere me lius
+                        quod it legunt saepius. Claritas est etiam processus
+                        dynamicus, qui sequitor mutationem consuetudium lectorum
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <img class="img_table" src="./img/bang.jpg" alt="" />
+                    <div class="text_table">
+                      <p class="text_title">Nam liber tempor</p>
+                      <p>
+                        Lorem ipsum door sit amet, <br />
+                        consectetuer adipiscing alit, sed diam nonummy nibh.
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img class="img_table" src="./img/sutu.jpg" alt="" />
+                    <div class="text_table">
+                      <p class="text_title">Ut wisi enim</p>
+                      <p>
+                        Lorem ipsum door sit amet, <br />
+                        consectetuer adipiscing alit, sed diam nonummy nibh.
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <img class="img_table" src="./img/kangaroo.jpg" alt="" />
+                    <div class="text_table">
+                      <p class="text_title">Duis autem vel</p>
+                      <p>
+                        Lorem ipsum door sit amet, <br />
+                        consectetuer adipiscing alit, sed diam nonummy nibh.
+                      </p>
+                    </div>
+                  </td>
+                  <td>
+                    <img class="img_table" src="./img/bien.jpg" alt="" />
+                    <div class="text_table">
+                      <p class="text_title">Eodem modo typi</p>
+                      <p>
+                        Lorem ipsum door sit amet, <br />
+                        consectetuer adipiscing alit, sed diam nonummy nibh.
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </article>
+        <aside>
+          <div class="div_aside">
+            <h3>HOLYDAY SEARCH</h3>
+            <h5>Chọn nơi bạn muốn tham quan:</h5>
+            <div class="select_control">
+              <input type="button" value="Chọn khu vực" class="btn_select" />
+              <input type="button" value="Chọn chủ đề" class="btn_select" />
+              <input
+                type="button"
+                value="Chọn ngày du lịch"
+                class="btn_select"
+              />
+              <input type="button" value="Chọn mức giá" class="btn_select" />
+            </div>
+            <div id="btn_arrow" style="margin-top: 20px">
+              <p
+                style="
+                  position: absolute;
+                  color: white;
+                  font-size: 20px;
+                  margin-left: 20px;
+                "
+              >
+                SEARCH HOLYDAYS
+              </p>
+            </div>
+            <h1>QUICK SEARCH</h1>
+            <p>Thông tin nơi bạn tham quan:</p>
+            <div style="display: flex; justify-content: space-between">
+              <input type="text" placeholder="Country/Code..." id="btn_code" />
+              <input type="button" value="SEARCH" id="btn_search_code" />
+            </div>
+          </div>
+          <hr />
+          <div class="div_aside">
+            <h2>NEWSLETTER SIGUP</h2>
+            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolo sit amet</p>
+            <input
+              type="text"
+              placeholder="Enter Email ..."
+              class="btn_select"
+            />
+            <input type="text" placeholder="Enter Name ..." id="btn_code" />
+            <input type="button" value="SIGN UP" id="btn_search_code" />
+          </div>
+          <hr />
+          <div class="div_aside">
+            <h2>LATEST NEWS</h2>
+            <p
+              style="
+                font-size: 20px;
+                font-weight: 600;
+                color: #1abb1c;
+                margin-bottom: -10px;
+              "
+            >
+              Dolor sit amet ipsum dolor
             </p>
-        </div>
-    </footer>
-</div>
-
-
-
-  </div>
-</body>
-
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut claritas. Investigationes.
+            </p>
+            <p style="font-size: 20px; font-weight: 600; margin-bottom: -10px">
+              Lorem ipsum dolor sit amet
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut claritas. Investigationes.
+            </p>
+            <p style="font-size: 20px; font-weight: 600; margin-bottom: -10px">
+              Lorem ipsum dolor sit amet
+            </p>
+            <p style="margin-bottom: 70px">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut claritas. Investigationes.
+            </p>
+          </div>
+        </aside>
+      </div>
+      <div class="row">
+        <footer class="footer">
+          <div class="footer_title">
+            <h1 class="footer_title_name">
+              Option congue nihil imperdiet doming id quod mazim place.
+              Investingationes demonstraverunt
+            </h1>
+          </div>
+          <div class="footer_content">
+            <ul class="footer-content-list">
+              <li class="footer-content-item">
+                <h1 class="footer-content-title-1">Follow on twitter</h1>
+                <p class="text pt-8">
+                  Lorem ipsum dolor sit amet,<br />consectetuer adipiscing elit,
+                  sed diam<br />
+                  nonummy nibh eusimod volutpat.
+                </p>
+                <div class="footer-content-item-facebook1">
+                  <p style="margin: 6px 0">join us on facebook</p>
+                  <div class="footer-content-item-facebook-icon ti-user"></div>
+                </div>
+              </li>
+              <li class="footer-content-item2">
+                <h1 class="footer-content-title-2">Liên kết</h1>
+                <ul class="footer-content-list">
+                  <li class="footer-content-item3">
+                    <p class="text">Lorem ipsum</p>
+                    <p class="text">Duis autem</p>
+                    <p style="margin: 4px; font-size: 15px">Typi non habent</p>
+                    <p class="text">Odio dignissim</p>
+                    <p class="text">Accumsan et</p>
+                  </li>
+                  <li class="footer-content-item3">
+                    <p class="text">Dotor sit amet</p>
+                    <p class="text">FAQs</p>
+                    <p class="text">Home</p>
+                    <p class="text">Clients</p>
+                    <p class="text">Donate</p>
+                  </li>
+                  <li class="footer-content-item3">
+                    <p class="text">BBC Vietnamese</p>
+                    <p class="text">Quanta decima et</p>
+                    <p class="text">Legene me lius</p>
+                    <p class="text">Contact Us</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-content-item4">
+                <h1 class="footer-content-title-3">Contact Us</h1>
+                <p class="text pt-8">
+                  <span style="font-weight: bold">Tell:</span>
+                  12345 678890
+                </p>
+                <p class="text">
+                  <span style="font-weight: bold">Email</span>
+                  jerry2099tom@gmail.com
+                </p>
+                <p>&nbsp;</p>
+                <p class="text">
+                  Nature tour, Your CiTy,<br />Your state 123 456 789
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_copyright">
+            <h1 style="line-height: 20px; font-size: 15px">
+              © Nature tour 2013
+            </h1>
+            <p class="text-copyright">
+              Copyright and design by
+              <span style="text-transform: uppercase; font-weight: bold"
+                >izwbez.com.</span
+              >
+              <a>All right reserved</a>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
